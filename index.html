@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Custom font: Lora -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- stylesheet that bootstrap uses -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- custom style sheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid px-0">
+      <div class="Line"></div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img class="Logo" src="imgs/LOGO.png" alt="Logo" />
+      </a>
+      <!-- Collapse bar -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- NAV-BUTTONS -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <!-- BUTTON -->
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EXPLORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SHOP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CAREER</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Center Text -->
+    <!-- Fluid property makes item responsive -->
+    <section class="container-fluid position-relative" style="height: 100vh">
+      <div class="row h-100">
+        <div class="col-6 d-flex justify-content-center align-items-center">
+           <div class="position-relative text-white p-4" style="max-width: 600px; background-color: rgba(0, 0, 0, 0.75); padding: 1rem; border-radius: 0.5rem;">
+               <!-- Orange Bar -->
+            <div
+              class="position-absolute w-100"
+              style="
+                height: 10px;
+                background-color: orange;
+                top: 0;
+                left: 0;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+              "
+            ></div>
+
+            <h1 style="max-width: 80%; font-size: 50px; font-family: Lora">
+              Find Inner <span class="text-warning">Peace</span> and
+              <span class="text-warning">Balance</span>
+            </h1>
+            <p>
+              Experience tranquility in nature's most serene settings.
+              Rejuvenate your mind and soul with breathtaking landscapes.
+            </p>
+          </div>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Center Text -->
+    <!-- Fluid property makes item responsive -->
+    <section class="container-fluid position-relative" style="height: 100vh">
+      <div class="row h-100">
+        <div
+          class="col-7 d-flex justify-content-center align-items-center ml-5"
+          style="background-color: pink"
+          ;
+        >
+          <div class="bg-dark bg-opacity-50 text-white p-4 rounded">
+            <div class="container-fluid" style="background-color: red" ;>l</div>
+            <h1>
+              Find Inner <span class="text-warning">Peace</span> and
+              <span class="text-warning">Balance</span>
+            </h1>
+            <p>
+              Experience tranquility in nature's most serene settings.
+              Rejuvenate your mind and soul with breathtaking landscapes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insert this into the bottom of your HTML or BootStrap wont work. -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!--------------------------------------->
+  </body>
+</html>
