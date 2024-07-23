@@ -12,6 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
       rel="stylesheet"
     />
+    <!-- Custom font: Roboto -->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" 
+      rel="stylesheet"
+    />
 
     <!-- stylesheet that bootstrap uses -->
     <link
@@ -25,7 +30,8 @@
   </head>
   <body>
     <div class="container-fluid px-0">
-      <div class="Line"></div>
+       <!-- ORANGE BAR - top -->
+      <div class="Line_Top"></div>
     </div>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg">
@@ -70,28 +76,19 @@
 
     <!-- Center Text -->
     <!-- Fluid property makes item responsive -->
-    <section class="container-fluid position-relative" style="height: 100vh">
+   <section class="container-fluid position-relative" style="height: 80vh; overflow: hidden;">
       <div class="row h-100">
-        <div class="col-6 d-flex justify-content-center align-items-center">
-           <div class="position-relative text-white p-4" style="max-width: 600px; background-color: rgba(0, 0, 0, 0.75); padding: 1rem; border-radius: 0.5rem;">
-               <!-- Orange Bar -->
-            <div
-              class="position-absolute w-100"
-              style="
-                height: 10px;
-                background-color: orange;
-                top: 0;
-                left: 0;
-                border-top-left-radius: 4px;
-                border-top-right-radius: 4px;
-              "
-            ></div>
+        <div class="col-6 d-flex justify-content-center align-items-center" style="background-color: red";>
+          <!-- CENTER FRAME -->
+           <div class="FRAME_ position-relative text-white p-4">
+               <!-- Orange Bar - middle -->
+            <div class="Line_Frame position-absolute w-100"></div>
 
-            <h1 style="max-width: 80%; font-size: 50px; font-family: Lora">
+            <h1 style="max-width: 80%; font-size: 60px; font-family: Lora">
               Find Inner <span class="text-warning">Peace</span> and
               <span class="text-warning">Balance</span>
             </h1>
-            <p>
+            <p style="font-family: Roboto, sans-serif; font-weight: 300; font-style: normal; opacity: 0.8; font-size: 28px; padding-right: 5%; ";>
               Experience tranquility in nature's most serene settings.
               Rejuvenate your mind and soul with breathtaking landscapes.
             </p>
@@ -101,29 +98,14 @@
       </div>
     </section>
 
-    <!-- Center Text -->
-    <!-- Fluid property makes item responsive -->
-    <section class="container-fluid position-relative" style="height: 100vh">
-      <div class="row h-100">
-        <div
-          class="col-7 d-flex justify-content-center align-items-center ml-5"
-          style="background-color: pink"
-          ;
-        >
-          <div class="bg-dark bg-opacity-50 text-white p-4 rounded">
-            <div class="container-fluid" style="background-color: red" ;>l</div>
-            <h1>
-              Find Inner <span class="text-warning">Peace</span> and
-              <span class="text-warning">Balance</span>
-            </h1>
-            <p>
-              Experience tranquility in nature's most serene settings.
-              Rejuvenate your mind and soul with breathtaking landscapes.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="container-fluid p-0 position-relative">
+  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
+    <img src="imgs/Shadow.png" alt="Shadow image" 
+         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: top center; background-color: white;">
+  </div>
+</section>
+
+  
 
     <!-- Insert this into the bottom of your HTML or BootStrap wont work. -->
     <script

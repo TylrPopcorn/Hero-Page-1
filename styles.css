@@ -10,7 +10,7 @@ body {
 }
 
 /* ORANGE TOP LINE */
-.Line {
+.Line_Top {
   background-color: #ff9500;
   width: 100%;
   height: 7px;
@@ -57,22 +57,21 @@ body {
   font-size: 15px;
 }
 
-/* .content {
-  margin-left: 10vw;
-  margin-top: 30vh;
-
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-
-  padding: 20px;
-  border-radius: 3px;
-  text-align: center;
-  width: 45vw;
+/* CENTER FRAME */
+.FRAME_ {
+  margin-top: 15%;
+  max-width: 750px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 1rem;
+  border-radius: 0.5rem;
 }
 
-.content h1 {
-  background-color: red;
-  text-align: left;
-  padding-right: 30%;
-  width: 90%;
-} */
+/* ORANGE BAR - FRAME */
+.Line_Frame {
+  height: 10px;
+  background-color: orange;
+  top: 0;
+  left: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
