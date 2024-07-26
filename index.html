@@ -78,17 +78,18 @@
     <!-- Fluid property makes item responsive -->
    <section class="container-fluid position-relative" style="height: 80vh; overflow: hidden;">
       <div class="row h-100">
-        <div class="col-6 d-flex justify-content-center align-items-center" style="background-color: red";>
+        <div class="col-6 d-flex justify-content-center align-items-center">
           <!-- CENTER FRAME -->
            <div class="FRAME_ position-relative text-white p-4">
                <!-- Orange Bar - middle -->
             <div class="Line_Frame position-absolute w-100"></div>
 
-            <h1 style="max-width: 80%; font-size: 60px; font-family: Lora">
+            <!-- TITLE -->
+            <h1 class="Title" style="font-family: Lora">
               Find Inner <span class="text-warning">Peace</span> and
               <span class="text-warning">Balance</span>
             </h1>
-            <p style="font-family: Roboto, sans-serif; font-weight: 300; font-style: normal; opacity: 0.8; font-size: 28px; padding-right: 5%; ";>
+            <p class="Description" style="font-family: Roboto, sans-serif;";>
               Experience tranquility in nature's most serene settings.
               Rejuvenate your mind and soul with breathtaking landscapes.
             </p>
@@ -98,12 +99,13 @@
       </div>
     </section>
 
+    <!--- SHADOW --->
     <section class="container-fluid p-0 position-relative">
-  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden;">
-    <img src="imgs/Shadow.png" alt="Shadow image" 
-         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: top center; background-color: white;">
-  </div>
-</section>
+        <div style="position: relative; width: 100%; height:20vh; max-height: 21vh; margin-top: -4vh; overflow: hidden;">
+         <img src="imgs/Shadow.png" alt="Shadow image" 
+            style="position: absolute; width: 100%; height: 100%; object-position: top center;"/>
+      </div>
+    </section>
 
   
 

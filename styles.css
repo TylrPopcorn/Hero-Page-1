@@ -75,3 +75,18 @@ body {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
+
+/* TITLE */
+.Title {
+  max-width: 80%;
+  font-size: 60px;
+}
+
+/* DESCRIPTION */
+.Description {
+  padding-right: 5%;
+  opacity: 0.8;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: normal;
+}
