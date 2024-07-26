@@ -90,3 +90,20 @@ body {
   font-weight: 300;
   font-style: normal;
 }
+
+/* BOTTOM SHADOW */
+.Shadow div {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  max-height: 21vh;
+  margin-top: -4vh;
+  overflow: hidden;
+}
+
+.Shadow div img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-position: top center;
+}
