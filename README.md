@@ -1,5 +1,5 @@
 # ```Hero-Page-1```
-```Creating simple hero pages with BootStrap HTML```
+```Creating simple hero pages with BootStrap & HTML```
 
 While showcasing a serene landscape scene at sunset, this hero page invites users to "Find Inner Peace and Balance" by highlighting the tranquility of nature and encouraging rejuvenation of the mind and soul. The layout includes a prominent navigation bar with links to Home, Explore, News, Shop, and Career sections, providing a comprehensive and aesthetically pleasing user experience. Originally designed in Figma, this hero page was re-created as a practice project for using Bootstrap HTML.
 
