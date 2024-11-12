@@ -11,4 +11,5 @@ Live: https://hero-page-1.onrender.com/
 # Related Projects
 -  [BootStrap Basics](https://github.com/TylrPopcorn/Bootstrap-Basics) - *Learn how to use BootStrap*
 -  [Museum of Candy](https://github.com/TylrPopcorn/Museum-of-Candy) - *Explore the museum of candy*
+-  [Random Letter Generator](https://github.com/TylrPopcorn/Random-Letter-Generator) - *A simple application that will generate a random letter when a button is clicked on.*
 -  [Projects List](https://github.com/TylrPopcorn/Projects-List) - *Explore other projects I have worked on*
